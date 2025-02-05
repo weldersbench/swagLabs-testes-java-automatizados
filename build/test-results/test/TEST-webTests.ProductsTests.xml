@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="webTests.ProductsTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-02-05T12:43:59" hostname="USER-NOTE" time="1.282">
+  <properties/>
+  <testcase name="testeAddProdutoCarrinho" classname="webTests.ProductsTests" time="1.282"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.25 (771113d280dd3dda2fb422a6c805f0eb2b8ee6ed-refs/branch-heads/5414@{#303}) on port 28848
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+fev 05, 2025 9:43:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+</testsuite>

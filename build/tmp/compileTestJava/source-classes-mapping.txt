@@ -1,4 +1,8 @@
 webTests/TestesUI.java
  webTests.TestesUI
+util/DriverFactory.java
+ util.DriverFactory
 webTests/LoginTests.java
  webTests.LoginTests
+webTests/ProductsTests.java
+ webTests.ProductsTests

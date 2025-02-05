@@ -19,14 +19,17 @@ public class LoginPage {
 
     // Metodos que recebem "digita nos campos" os valores de login (usuario e senha)
     public void enterUsername(String username){
+
         driver.findElement(usernameField).sendKeys(username);
     }
 
     public void enterPassword(String password){
+
         driver.findElement(passwordField).sendKeys(password);
     }
 
     public void clickLogin(){
+
         driver.findElement(loginButton).click();
     }
 
@@ -37,6 +40,7 @@ public class LoginPage {
     }
 
     public String getErroMessage(){
+
         return driver.findElement(By.cssSelector("h3[data-test='error']")).getText();
     }
 }
