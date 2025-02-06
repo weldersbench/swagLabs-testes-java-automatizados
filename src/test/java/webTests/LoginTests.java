@@ -2,6 +2,7 @@ package webTests;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.LoginPage;
@@ -38,5 +39,11 @@ public class LoginTests {
         String errorMessage = loginPage.getErroMessage();
 
         Assert.assertTrue(errorMessage.contains("Epic sadface: Username and password do not match any user"));
+    }
+
+    @AfterMethod
+    public void tearDown(){
+
+        DriverFactory.quitDriver();
     }
 }

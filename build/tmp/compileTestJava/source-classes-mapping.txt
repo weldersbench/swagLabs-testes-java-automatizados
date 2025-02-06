@@ -6,3 +6,5 @@ webTests/LoginTests.java
  webTests.LoginTests
 webTests/ProductsTests.java
  webTests.ProductsTests
+webTests/CardTests.java
+ webTests.CardTests

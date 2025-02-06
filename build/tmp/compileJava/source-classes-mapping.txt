@@ -2,3 +2,5 @@ pages/LoginPage.java
  pages.LoginPage
 pages/ProductsPage.java
  pages.ProductsPage
+pages/CardPage.java
+ pages.CardPage

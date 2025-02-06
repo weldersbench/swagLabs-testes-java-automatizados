@@ -9,8 +9,6 @@ import pages.LoginPage;
 import pages.ProductsPage;
 import util.DriverFactory;
 
-import static net.bytebuddy.matcher.ElementMatchers.is;
-
 public class ProductsTests {
 
     private WebDriver driver;
@@ -42,6 +40,7 @@ public class ProductsTests {
 
     @AfterMethod
     public void tearDown(){
+
         DriverFactory.quitDriver();
     }
 }
